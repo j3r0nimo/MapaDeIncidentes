@@ -3,7 +3,7 @@ import { Form, Button, Row, Col, Table, Container } from "react-bootstrap";
 import { useNavigate } from 'react-router-dom';
 
 export default function Administracion() {
-    const BASE_URL = "http://localhost:3001/incidentes";
+    const URL = "https://mapadeincidentesback.onrender.com/incidentes";
     const [listaIncidentes, setListaIncidentes] = useState([]);
     const [idEdicion, setIdEdicion] = useState(null);
     const datosIniciales = {
