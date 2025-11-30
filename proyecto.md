@@ -55,7 +55,6 @@ El Prototipo cumple con las siguientes condiciones:
 El Prototipo cumple con los siguientes criterios
 
 - Manejo de repositorios para ambos prototipos.
-- Configuración de servicios de deploy públicos del prototipo.
 - Simulación de entorno local de ambos repositorios
 - Colección en postman para pruebas contra la API
 - Manejo de tableros en Jira para la división de tareas.
