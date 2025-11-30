@@ -47,6 +47,7 @@ El Prototipo cumple con las siguientes condiciones:
 
 - Frontend (Generación de un prototipo navegable, no funcional)
 - Backend (Utilización de mocks locales o mockapi.io)
+- Configuración de servicios de deploy públicos del prototipo.
 - Generación de documentación de los repositorios (README.md)
 - Generación de tickets o tareas por integrante en un tablero (Ej: Jira)
 
