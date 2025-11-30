@@ -13,7 +13,7 @@ export default function LoginAdmin() {
         const password = e.target.password.value;
 
         try {
-            const response = await fetch(`${URL}/admins?username=${username}&password=${password}`);
+            const response = await fetch(`${URL}admins?username=${username}&password=${password}`);
             const users = await response.json();
 
             if (users.length > 0) {
