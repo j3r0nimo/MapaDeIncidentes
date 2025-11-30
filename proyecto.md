@@ -60,6 +60,7 @@ El Prototipo cumple con los siguientes criterios
 - Colección en postman para pruebas contra la API
 - Manejo de tableros en Jira para la división de tareas.
 - Documentación del proyecto + Documentación de Repositorios (readme.md)
+- Diagrama de Entidad-Relacion (Diagrama conceptual, no diagrama tecnico)
 - Estandarización del código (linter: prettier)
 
 ## Créditos
