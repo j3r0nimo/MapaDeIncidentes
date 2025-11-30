@@ -1,6 +1,6 @@
 ## Frontend proyecto de mapa de incidentes de Coronel Rosales
 
-### Instalacion
+## Instalacion
 
 - `npm install`: para la instalacion de dependencias
 
@@ -8,7 +8,7 @@
 
 - `npm run dev`: para el arranque del sitio en la url **<http://localhost:5173/>**
 
-### Credenciales requeridas para login
+## Credenciales requeridas para login
 
 - **usuario**: admin
 - **contraseña**: 123
