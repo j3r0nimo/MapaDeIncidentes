@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'; // Importante para redireccionar
 export default function LoginAdmin() {
     const [error, setError] = useState(""); // Para mostrar mensajes de error en pantalla
     const navigate = useNavigate();
-    const URL = "https://mapadeincidentesback.onrender.com/"
+    const URL = "https://mapadeincidentesback.onrender.com"
     const handleLogin = async (e) => {
         e.preventDefault();
         setError("");
