@@ -1,0 +1,14 @@
+{
+  "middlewares": [
+    {
+      "type": "cors",
+      "options": {
+        "origin": ["https://mapadeincidentesfront.onrender.com/", "https://[url-de-tu-frontend].com"],
+        "methods": "GET,HEAD,PUT,PATCH,POST,DELETE",
+        "credentials": true,
+        "optionsSuccessStatus": 204
+      }
+    }
+  ],
+  "public": false 
+}

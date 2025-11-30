@@ -5,7 +5,7 @@
   "main": "src/app.js",
   "type": "module",
   "scripts": {
-    "mock": "json-server --watch db.json --port 3001"
+    "mock": "json-server --config json-server.json db.json"
   },
   "author": "Grupo 14",
   "license": "ISC",
