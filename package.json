@@ -8,7 +8,7 @@
         "mock": "json-server --config json-server.json db.json"
     },
     "engines": {
-        "node": "20.x"
+        "node": "18.x"
     },
     "author": "Grupo 14",
     "license": "ISC",
