@@ -39,7 +39,7 @@ export default function Administracion() {
 
     const cargarIncidentes = async () => {
         try {
-            const res = await fetch(BASE_URL);
+            const res = await fetch(URL);
             const data = await res.json();
             setListaIncidentes(data);
         } catch (error) {
@@ -84,13 +84,13 @@ export default function Administracion() {
         try {
             let response;
             if (idEdicion) {
-                response = await fetch(`${BASE_URL}/${idEdicion}`, {
+                response = await fetch(`${URL}/${idEdicion}`, {
                     method: 'PUT',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(incidenteFinal)
                 });
             } else {
-                response = await fetch(BASE_URL, {
+                response = await fetch(URL, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(incidenteFinal)
@@ -113,7 +113,7 @@ export default function Administracion() {
     const handleEliminar = async (id) => {
         if (!window.confirm("¿Seguro que deseas eliminar este incidente?")) return;
 
-        await fetch(`${BASE_URL}/${id}`, { method: 'DELETE' });
+        await fetch(`${URL}/${id}`, { method: 'DELETE' });
         cargarIncidentes();
         if (idEdicion === id) handleCancelarEdicion();
     };
