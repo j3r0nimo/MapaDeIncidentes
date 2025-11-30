@@ -2,7 +2,7 @@
     "name": "backend_grupo_14",
     "version": "1.0.0",
     "description": "Backend Grupo 14",
-    "main": "src/app.js",
+    "main": "server.js",
     "scripts": {
         "start": "node server.js",
         "mock": "json-server --config json-server.json db.json"
