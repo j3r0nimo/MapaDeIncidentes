@@ -41,11 +41,13 @@ El proyecto se estructura en dos servicios principales: backend y frontend, ejec
 - Las imágenes asociadas se consultan directamente en el sitio de origen.
 - Las noticias originales se consultan directamente en el sitio de origen.
 
-## Herramientas utilizadas:
-- React.js: facil creacion de interfaces de usuario y crear SPA (Single Page Application)
+## Herramientas utilizadas
+- React.js: facil creacion de interfaces de usuario y creacion de SPAs (Single Page Applications)
 - Vite: herramienta de desarrollo agil y liviano para crear aplicaciones React
-- Leaflet maps: utilizado para el renderizar un mapa interactivo del partido de Coronel Rosales
+- Leaflet maps: utilizado para renderizar un mapa interactivo del partido de Coronel Rosales
 - Bootstrap: diseñado de componentes y facilidad del diseño responsive
+- node.js: entorno de ejecución que permite correr JavaScript del lado del servidor
+- json-server: simulacion de una API usando un mock.
 
 ## Entrega de prototipos
 
