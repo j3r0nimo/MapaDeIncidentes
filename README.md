@@ -1,8 +1,8 @@
-# Backend API de incidentes de tránsito en Coronel Rosales
+# API de incidentes de tránsito en Coronel Rosales
 
 ## API REST Mock
 
-Este backend implementa una API REST mock utilizando Node.js y la librería JSON Server.
+Este backend implementa un Mock de API REST.
 
 ## Tecnologías utilizadas
 
@@ -11,7 +11,6 @@ Este backend implementa una API REST mock utilizando Node.js y la librería JSON
 
 ## Instalación
 
-- El clonado crea la carpeta MapaDeIncidentes
 - cd backend
 - npm install
 
