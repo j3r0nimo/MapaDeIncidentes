@@ -1,4 +1,4 @@
-const BASE_URL = import.meta.env.VITE_API_BASE_URL || "https://mapadeincidentesback.onrender.com/";
+const BASE_URL = import.meta.env.VITE_API_BASE_URL || "https://mapadeincidentesback.onrender.com";
 
 export async function FetchIncidentes(page = 1, limit = 5, keyword = "") {
   try {
